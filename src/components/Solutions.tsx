@@ -4,7 +4,7 @@ import { solutions } from '../data/solutionsData';
 import { Filter, Sprout } from 'lucide-react';
 
 function Solutions() {
-  const [activeCategory, setActiveCategory] = useState<'all' | 'gated' | 'public'>('all');
+  const [activeCategory, setActiveCategory] = useState<'all' | 'gated' | 'public' | 'rural'>('all');
 
   const filteredSolutions = solutions.filter(solution => 
     activeCategory === 'all' ? true : solution.category === activeCategory
@@ -33,12 +33,13 @@ function Solutions() {
             <Filter className="w-5 h-5 text-gray-600" />
             <select 
               value={activeCategory}
-              onChange={(e) => setActiveCategory(e.target.value as 'all' | 'gated' | 'public')}
+              onChange={(e) => setActiveCategory(e.target.value as 'all' | 'gated' | 'public' | 'rural')}
               className="border rounded-lg px-3 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               <option value="all">All Categories</option>
               <option value="gated">Gated Communities</option>
               <option value="public">Public Areas</option>
+              <option value="rural">Rural Development</option>
             </select>
           </div>
         </div>
@@ -59,10 +60,12 @@ function Solutions() {
                   <h3 className="text-xl font-semibold text-gray-900">{solution.title}</h3>
                   <span className={`px-3 py-1 rounded-full text-sm font-medium ${
                     solution.category === 'gated' 
-                      ? 'bg-purple-100 text-purple-800' 
-                      : 'bg-blue-100 text-blue-800'
+                      ? 'bg-purple-100 text-purple-800'
+                      : solution.category === 'public'
+                      ? 'bg-blue-100 text-blue-800'
+                      : 'bg-green-100 text-green-800'
                   }`}>
-                    {solution.category === 'gated' ? 'Gated' : 'Public'}
+                    {solution.category === 'gated' ? 'Gated' : solution.category === 'public' ? 'Public' : 'Rural'}
                   </span>
                 </div>
                 <p className="text-gray-600 mb-4">{solution.description}</p>

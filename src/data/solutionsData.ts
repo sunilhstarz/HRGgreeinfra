@@ -72,5 +72,18 @@ export const solutions: Solution[] = [
       'Sustainable design',
       'Private gardens'
     ]
+  },
+  {
+    id: '7',
+    title: 'Rural CBG Plant Initiative',
+    description: 'Compressed Bio Gas (CBG) plant development for rural communities, converting agricultural waste into clean energy.',
+    category: 'rural',
+    imageUrl: 'https://images.pexels.com/photos/2132180/pexels-photo-2132180.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    benefits: [
+      'Clean energy production',
+      'Agricultural waste management',
+      'Rural employment generation',
+      'Reduced carbon emissions'
+    ]
   }
 ];

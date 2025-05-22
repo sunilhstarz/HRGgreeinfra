@@ -2,7 +2,7 @@ export interface Project {
   id: string;
   title: string;
   description: string;
-  category: 'gated' | 'public';
+  category: 'gated' | 'public' | 'rural';
   imageUrl: string;
   location: string;
   area: string;
@@ -13,7 +13,7 @@ export interface Solution {
   id: string;
   title: string;
   description: string;
-  category: 'gated' | 'public';
+  category: 'gated' | 'public' | 'rural';
   imageUrl: string;
   benefits: string[];
 }
