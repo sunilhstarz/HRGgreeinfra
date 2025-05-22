@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Solution } from '../types';
 import { solutions } from '../data/solutionsData';
-import { Filter } from 'lucide-react';
+import { Filter, Sprout } from 'lucide-react';
 
 function Solutions() {
   const [activeCategory, setActiveCategory] = useState<'all' | 'gated' | 'public'>('all');
@@ -13,6 +13,20 @@ function Solutions() {
   return (
     <section className="py-16 px-4 bg-gray-50">
       <div className="max-w-7xl mx-auto">
+        <div className="mb-16 text-center">
+          <div className="flex justify-center mb-4">
+            <Sprout className="w-12 h-12 text-green-600" />
+          </div>
+          <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Journey</h2>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            From our roots in property management to becoming pioneers in green urban infrastructure,
+            our evolution has been driven by a vision for sustainable cities. We started by managing
+            residential complexes, where we witnessed firsthand the transformative power of well-planned
+            green spaces. This insight led us to specialize in creating comprehensive green infrastructure
+            solutions that serve both private communities and public spaces across Andhra Pradesh.
+          </p>
+        </div>
+
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-3xl font-bold text-gray-900">Our Solutions</h2>
           <div className="flex items-center gap-2">
@@ -69,4 +83,4 @@ function Solutions() {
   );
 }
 
-export default Solutions
+export default Solutions;
