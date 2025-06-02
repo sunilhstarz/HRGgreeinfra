@@ -27,14 +27,15 @@ export const solutions: Solution[] = [
   },
   {
     id: '3',
-    title: 'Temple Garden Restoration',
-    description: 'Revitalizing ancient temple gardens with historical plant species and traditional water management systems.',
-    category: 'public',
-    imageUrl: 'https://images.pexels.com/photos/6613058/pexels-photo-6613058.jpeg',
+    title: 'Green Dome Technology',
+    description: 'Advanced green dome installations for buildings to reduce solar radiation and energy consumption.',
+    category: 'gated',
+    imageUrl: 'https://images.pexels.com/photos/1707820/pexels-photo-1707820.jpeg',
     benefits: [
-      'Heritage preservation',
-      'Traditional irrigation systems',
-      'Sacred grove restoration'
+      'Temperature reduction up to 5°C',
+      'Energy cost savings',
+      'Enhanced building aesthetics',
+      'Natural insulation'
     ]
   },
   {
@@ -51,39 +52,41 @@ export const solutions: Solution[] = [
   },
   {
     id: '5',
-    title: 'Eco-Housing Complex',
-    description: 'Sustainable residential complex with rooftop gardens and vertical farming installations.',
-    category: 'gated',
-    imageUrl: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg',
+    title: 'Solar Radiation Management',
+    description: 'Innovative green technology solutions combining vertical gardens with solar-reflective surfaces.',
+    category: 'public',
+    imageUrl: 'https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg',
     benefits: [
-      'Rooftop farming',
-      'Rainwater harvesting',
-      'Waste composting'
+      'Heat island effect reduction',
+      'Energy efficiency',
+      'Improved air quality',
+      'Aesthetic enhancement'
     ]
   },
   {
     id: '6',
-    title: 'Rural Agroforestry Initiative',
-    description: 'Implementation of agroforestry systems in rural communities combining agriculture with tree cultivation.',
-    category: 'rural',
-    imageUrl: 'https://images.pexels.com/photos/2382665/pexels-photo-2382665.jpeg',
+    title: 'Green Roof Systems',
+    description: 'Advanced rooftop gardens with thermal regulation technology and native plant species.',
+    category: 'gated',
+    imageUrl: 'https://images.pexels.com/photos/2922672/pexels-photo-2922672.jpeg',
     benefits: [
-      'Sustainable farming',
-      'Income diversification',
-      'Soil conservation'
+      'Temperature control',
+      'Stormwater management',
+      'Urban biodiversity',
+      'Energy savings'
     ]
   },
   {
     id: '7',
-    title: 'Sacred Grove Conservation',
-    description: 'Preservation and restoration of traditional sacred groves with indigenous species.',
-    category: 'rural',
-    imageUrl: 'https://images.pexels.com/photos/2570139/pexels-photo-2570139.jpeg',
+    title: 'Eco-Cooling Corridors',
+    description: 'Strategic green passages designed to create natural cooling channels in urban areas.',
+    category: 'public',
+    imageUrl: 'https://images.pexels.com/photos/1486785/pexels-photo-1486785.jpeg',
     benefits: [
-      'Cultural preservation',
-      'Biodiversity conservation',
-      'Traditional knowledge preservation',
-      'Community engagement'
+      'Natural air circulation',
+      'Temperature reduction',
+      'Reduced energy consumption',
+      'Enhanced urban mobility'
     ]
   }
 ];
