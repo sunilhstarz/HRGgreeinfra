@@ -3,87 +3,87 @@ import { Solution } from '../types';
 export const solutions: Solution[] = [
   {
     id: '1',
-    title: 'Eco-Friendly Park Development',
-    description: 'Sustainable park development with native plants and water conservation features.',
+    title: 'Urban Forest Development',
+    description: 'Creating dense urban forests using the Miyawaki technique in metropolitan areas.',
     category: 'public',
-    imageUrl: 'https://images.pexels.com/photos/1269789/pexels-photo-1269789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/2387966/pexels-photo-2387966.jpeg',
     benefits: [
-      'Increased biodiversity',
-      'Reduced water consumption',
-      'Enhanced community spaces'
+      'Enhanced air quality',
+      'Urban heat reduction',
+      'Biodiversity support'
     ]
   },
   {
     id: '2',
-    title: 'Luxury Garden Complex',
-    description: 'Private garden development for gated communities with premium landscaping.',
+    title: 'Premium Villa Gardens',
+    description: 'Luxury garden development for high-end residential complexes featuring traditional Indian plants.',
     category: 'gated',
-    imageUrl: 'https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/7031595/pexels-photo-7031595.jpeg',
     benefits: [
-      'Premium landscaping',
-      'Private recreational areas',
-      'Exclusive amenities'
+      'Traditional herb gardens',
+      'Meditation spaces',
+      'Water conservation features'
     ]
   },
   {
     id: '3',
-    title: 'Vizag Beach Road Gardens',
-    description: 'Sustainable landscaping along the iconic Beach Road of Visakhapatnam, featuring salt-resistant plants and eco-friendly irrigation.',
+    title: 'Temple Garden Restoration',
+    description: 'Revitalizing ancient temple gardens with historical plant species and traditional water management systems.',
     category: 'public',
-    imageUrl: 'https://images.pexels.com/photos/1174198/pexels-photo-1174198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/5458388/pexels-photo-5458388.jpeg',
     benefits: [
-      'Salt-resistant vegetation',
-      'Water-efficient irrigation',
-      'Enhanced tourist experience'
+      'Heritage preservation',
+      'Traditional irrigation systems',
+      'Sacred grove restoration'
     ]
   },
   {
     id: '4',
-    title: 'Hill View Residences',
-    description: 'Exclusive gated community gardens in Vizag with panoramic views, featuring terraced landscapes and native plant species.',
-    category: 'gated',
-    imageUrl: 'https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    title: 'Smart City Green Corridor',
+    description: 'Development of green corridors in smart cities with native species and smart irrigation.',
+    category: 'public',
+    imageUrl: 'https://images.pexels.com/photos/1707820/pexels-photo-1707820.jpeg',
     benefits: [
-      'Terraced gardens',
-      'Native plant selection',
-      'Low maintenance design'
+      'Smart water management',
+      'Urban wildlife corridors',
+      'Pedestrian-friendly spaces'
     ]
   },
   {
     id: '5',
-    title: 'Krishna Riverfront Park',
-    description: 'Public park development along Krishna River in Vijayawada, incorporating flood-resistant design and local flora.',
-    category: 'public',
-    imageUrl: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    title: 'Eco-Housing Complex',
+    description: 'Sustainable residential complex with rooftop gardens and vertical farming installations.',
+    category: 'gated',
+    imageUrl: 'https://images.pexels.com/photos/5997996/pexels-photo-5997996.jpeg',
     benefits: [
-      'Flood-resistant design',
-      'Local biodiversity',
-      'Recreational facilities'
+      'Rooftop farming',
+      'Rainwater harvesting',
+      'Waste composting'
     ]
   },
   {
     id: '6',
-    title: 'Green Valley Enclave',
-    description: 'Premium gated community in Vijayawada with sustainable landscaping and modern irrigation systems.',
-    category: 'gated',
-    imageUrl: 'https://images.pexels.com/photos/5997996/pexels-photo-5997996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    title: 'Rural Agroforestry Initiative',
+    description: 'Implementation of agroforestry systems in rural communities combining agriculture with tree cultivation.',
+    category: 'rural',
+    imageUrl: 'https://images.pexels.com/photos/4207908/pexels-photo-4207908.jpeg',
     benefits: [
-      'Smart irrigation',
-      'Sustainable design',
-      'Private gardens'
+      'Sustainable farming',
+      'Income diversification',
+      'Soil conservation'
     ]
   },
   {
     id: '7',
-    title: 'Rural CBG Plant Initiative',
-    description: 'Compressed Bio Gas (CBG) plant development for rural communities, converting agricultural waste into clean energy.',
+    title: 'Sacred Grove Conservation',
+    description: 'Preservation and restoration of traditional sacred groves with indigenous species.',
     category: 'rural',
-    imageUrl: 'https://images.pexels.com/photos/2132180/pexels-photo-2132180.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/5241077/pexels-photo-5241077.jpeg',
     benefits: [
-      'Clean energy production',
-      'Agricultural waste management',
-      'Rural employment generation',
-      'Reduced carbon emissions'
+      'Cultural preservation',
+      'Biodiversity conservation',
+      'Traditional knowledge preservation',
+      'Community engagement'
     ]
   }
 ];
