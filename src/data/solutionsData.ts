@@ -6,7 +6,7 @@ export const solutions: Solution[] = [
     title: 'Urban Forest Development',
     description: 'Creating dense urban forests using the Miyawaki technique in metropolitan areas.',
     category: 'public',
-    imageUrl: 'https://images.pexels.com/photos/2387966/pexels-photo-2387966.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/15286/pexels-photo.jpg',
     benefits: [
       'Enhanced air quality',
       'Urban heat reduction',
@@ -18,7 +18,7 @@ export const solutions: Solution[] = [
     title: 'Premium Villa Gardens',
     description: 'Luxury garden development for high-end residential complexes featuring traditional Indian plants.',
     category: 'gated',
-    imageUrl: 'https://images.pexels.com/photos/7031595/pexels-photo-7031595.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/3935350/pexels-photo-3935350.jpeg',
     benefits: [
       'Traditional herb gardens',
       'Meditation spaces',
@@ -30,7 +30,7 @@ export const solutions: Solution[] = [
     title: 'Temple Garden Restoration',
     description: 'Revitalizing ancient temple gardens with historical plant species and traditional water management systems.',
     category: 'public',
-    imageUrl: 'https://images.pexels.com/photos/5458388/pexels-photo-5458388.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/6613058/pexels-photo-6613058.jpeg',
     benefits: [
       'Heritage preservation',
       'Traditional irrigation systems',
@@ -42,7 +42,7 @@ export const solutions: Solution[] = [
     title: 'Smart City Green Corridor',
     description: 'Development of green corridors in smart cities with native species and smart irrigation.',
     category: 'public',
-    imageUrl: 'https://images.pexels.com/photos/1707820/pexels-photo-1707820.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/1563355/pexels-photo-1563355.jpeg',
     benefits: [
       'Smart water management',
       'Urban wildlife corridors',
@@ -54,7 +54,7 @@ export const solutions: Solution[] = [
     title: 'Eco-Housing Complex',
     description: 'Sustainable residential complex with rooftop gardens and vertical farming installations.',
     category: 'gated',
-    imageUrl: 'https://images.pexels.com/photos/5997996/pexels-photo-5997996.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg',
     benefits: [
       'Rooftop farming',
       'Rainwater harvesting',
@@ -66,7 +66,7 @@ export const solutions: Solution[] = [
     title: 'Rural Agroforestry Initiative',
     description: 'Implementation of agroforestry systems in rural communities combining agriculture with tree cultivation.',
     category: 'rural',
-    imageUrl: 'https://images.pexels.com/photos/4207908/pexels-photo-4207908.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/2382665/pexels-photo-2382665.jpeg',
     benefits: [
       'Sustainable farming',
       'Income diversification',
@@ -78,7 +78,7 @@ export const solutions: Solution[] = [
     title: 'Sacred Grove Conservation',
     description: 'Preservation and restoration of traditional sacred groves with indigenous species.',
     category: 'rural',
-    imageUrl: 'https://images.pexels.com/photos/5241077/pexels-photo-5241077.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/2570139/pexels-photo-2570139.jpeg',
     benefits: [
       'Cultural preservation',
       'Biodiversity conservation',
