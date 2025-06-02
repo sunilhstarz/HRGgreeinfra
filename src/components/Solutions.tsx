@@ -19,13 +19,16 @@ function Solutions() {
           </div>
           <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Journey</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            HRG Property Management Pvt Ltd began its journey in 2015 as a dedicated property 
-            management company in Andhra Pradesh. What started as a vision to transform residential 
-            spaces has evolved into a pioneering force in green urban infrastructure. Our expertise 
-            in managing premium residential complexes led us to recognize the transformative impact 
-            of well-planned green spaces. Today, we're proud to be leaders in creating comprehensive 
-            green infrastructure solutions that serve both private communities and public spaces 
-            across Andhra Pradesh, setting new standards in sustainable urban development.
+            HRG Property Management Pvt Ltd, established in 2015, has emerged as a pioneering force 
+            in Andhra Pradesh's property management sector. Our journey began with a focused mission 
+            to revolutionize residential property management, and today, we've evolved into a 
+            leading provider of innovative green urban infrastructure solutions. With over 8 years 
+            of experience in managing premium residential complexes, we've developed deep insights 
+            into sustainable urban development. Our expertise spans across gated communities, 
+            public spaces, and rural development projects, where we implement cutting-edge green 
+            technologies to create environmentally conscious living spaces. We take pride in our 
+            role as industry leaders, setting new benchmarks in sustainable urban development 
+            across Andhra Pradesh.
           </p>
         </div>
 
