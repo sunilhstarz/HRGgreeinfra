@@ -23,9 +23,15 @@ function Hero() {
               <Phone className="w-5 h-5" />
               <a href="tel:+917337285976" className="hover:text-green-300 transition-colors">+91 7337285976</a>
             </div>
-            <div className="flex items-center gap-2">
-              <Mail className="w-5 h-5" />
-              <a href="mailto:info@hrgproperties.com" className="hover:text-green-300 transition-colors">info@hrgproperties.com</a>
+            <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-8">
+              <div className="flex items-center gap-2">
+                <Mail className="w-5 h-5" />
+                <a href="mailto:cbo@nripropertynparentcare.com" className="hover:text-green-300 transition-colors">cbo@nripropertynparentcare.com</a>
+              </div>
+              <div className="flex items-center gap-2">
+                <Mail className="w-5 h-5" />
+                <a href="mailto:info@nripropertynparentcare.com" className="hover:text-green-300 transition-colors">info@nripropertynparentcare.com</a>
+              </div>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
