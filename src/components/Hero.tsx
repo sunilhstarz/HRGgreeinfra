@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building2, Phone, Mail } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
 
 function Hero() {
   return (
@@ -7,7 +7,11 @@ function Hero() {
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center mb-8">
-          <Building2 className="w-16 h-16" />
+          <img 
+            src="/FB_IMG_1741319571925.jpg" 
+            alt="HRG Property Management Logo" 
+            className="w-24 h-24 object-contain"
+          />
         </div>
         <div className="text-center">
           <h1 className="text-5xl font-bold mb-6">HRG Property Management Pvt Ltd</h1>
